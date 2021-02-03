@@ -1,0 +1,49 @@
+{
+  "name": "koa-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gd-bmp": "^1.2.4",
+    "glob": "^7.1.6",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.6.1",
+    "koa-body": "^4.0.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-cors": "^0.0.16",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "moment": "^2.27.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.3.7",
+    "parse": "^2.19.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "nodemon": "^1.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agaper/koa-mongodb.git"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "onewhitestone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agaper/koa-mongodb/issues"
+  },
+  "homepage": "https://github.com/agaper/koa-mongodb#readme"
+}
